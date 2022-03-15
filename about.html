@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale1=1.0">
+        <title> Student Corner </title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+          <nav>
+            <a href="Index.html"><img src="image/Logo1.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>    
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">FORUM</a></li>
+                    <li><a href="">CREATORS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1> About us </h1> 
+        </section>
+<!---------------------------------------------------------- about us content ---------------------------------------------------------------->
+        <section class="about us">
+            
+            <div class ="row">
+                <div class="about-col">
+                    <h1> We are an assistive learning website </h1>
+                     <p1> Our website is an interactive platform wherein our personnel helps students who are requesting for assistance with their studies. Each of Student Corner's personnel is assigned to specific subjects that they will mainly focus on with helping the learners. This website acts as a medium for the direct communication of the team behind Student Corner and the learners who are in need of our tutoring or assisting services.</p1>
+                    <a href="EXPLORE NOW"></a>
+            </div>
+                <div class="about-col">
+                    <img src="image/explore.png">
+                </div>
+            </div>
+        </section>
+     
+        
+        <section class="footer">
+            <h4> About Us </h4>
+            <p> Feel free to contact us for any suggestions or comments that you have about our website.</p>
+            <div class="icons">
+         <a href="#" class="fa fa-facebook"></a>
+         <a href="#" class="fa fa-twitter"></a>
+         <a href="#" class="fa fa-instagram"></a>  
+            </div>
+            <p> Made by Student of PCS</p>
+        </section>
+        
+        
+        
+        <!------------------------------------------------------------JavaScript for Toggle Menu------------------------------------------------>
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+             function hideMenu(){
+                 navLinks.style.right = "-200px";
+            }
+             }
+        </script>
+    </body>
+</html>
